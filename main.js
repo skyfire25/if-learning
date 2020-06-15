@@ -1,8 +1,38 @@
 /******************************
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
+function isItLong(str){
+if (str.length > 20){
+//console.log ('if longer than 20 characters')
+return 'That\'s a long string!'
+}
+}
 
+function isItMedium(medium){
+if(medium.length <= 20 && medium.length >= 10){
+//console.log ('in between 10 and 20 characters')
+//console.log ('if string is exactly 10 characters')
+return 'That\'s a regular sized string!'
+}
+}
+function isItShort(short){
+if(short.length < 10){
+return 'That\'s a small string!'
+}else{
+  return 'That\'s not a small string!'
+}
+}
+function howLongIsMyString(size) {
+  if(size.length > 20) {
+  return 'That\'s a long string!'
+  }else if(size.length <= 10 && 20<=){
+    return 'That\'s a regular sized string!'
+  }
+}
 
+  
+  
+  
 
 
 
